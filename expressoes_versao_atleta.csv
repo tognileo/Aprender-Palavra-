@@ -1,0 +1,401 @@
+﻿nicho,grupo,ordem,ingles,portugues,pronuncia
+,Básico,1,Hello.,Olá.,relô
+,Básico,2,Thank you.,Obrigado(a).,tênk iú
+,Básico,3,Please.,Por favor.,plíz
+,Básico,4,Excuse me.,Com licença.,ikskiús mi
+,Básico,5,Sorry.,Desculpe.,sóri
+,Básico,6,Yes.,Sim.,iés
+,Básico,7,No.,Não.,nôu
+,Básico,8,I don't understand.,Não entendi.,ái dôunt anderstén
+,Básico,9,"Can you repeat, please?","Pode repetir, por favor?",kén iú ripít plíz
+,Básico,10,"Speak slowly, please.","Fale mais devagar, por favor.",spík slôuli plíz
+,Básico,11,I don't know.,Não sei.,ái dôunt nôu
+,Básico,12,Help!,Socorro!,rélp
+,Básico,13,Can you help me?,Pode me ajudar?,kén iú rélp mi
+,Básico,14,I need help.,Preciso de ajuda.,ái níd rélp
+,Básico,15,I speak a little English.,Falo um pouco de inglês.,ái spík a lítol ínglish
+,Básico,16,My English is not good.,Meu inglês não é bom.,mái ínglish íz nót gud
+,Básico,17,Do you speak Portuguese?,Você fala português?,du iú spík pórtchuguíz
+,Básico,18,Hi.,Oi.,rái
+,Básico,19,Good morning.,Bom dia.,gud mórnin
+,Básico,20,Good afternoon.,Boa tarde.,gud éfternún
+,Básico,21,Good evening.,Boa noite (ao chegar).,gud ívnin
+,Básico,22,Good night.,Boa noite (ao se despedir).,gud náit
+,Básico,23,Goodbye.,Tchau.,gudbái
+,Básico,24,See you later.,Até mais tarde.,sí iú lêider
+,Básico,25,Have a nice day.,Tenha um bom dia.,rév a náis dêi
+,Básico,26,Thank you very much.,Muito obrigado(a).,tênk iú véri mâtch
+,Básico,27,You're welcome.,De nada.,iór uélkâm
+,Básico,28,I'm sorry.,Sinto muito.,áim sóri
+,Básico,29,No problem.,Sem problema.,nôu próblem
+,Básico,30,Maybe.,Talvez.,mêibi
+,Básico,31,OK.,Tudo bem. / Certo.,ôukêi
+,Básico,32,How are you?,Como vai você?,rau ár iú
+,Básico,33,"I'm fine, thank you.","Estou bem, obrigado(a).",áim fáin tênk iú
+,Básico,34,And you?,E você?,énd iú
+,Básico,35,Nice to meet you.,Prazer em conhecer.,náis tu mít iú
+,Básico,36,My name is...,Meu nome é...,mái nêim íz
+,Básico,37,What's your name?,Qual é o seu nome?,uáts iór nêim
+,Básico,38,I'm from Brazil.,Sou do Brasil.,áim fram brazíl
+,Básico,39,Where is the bathroom?,Onde fica o banheiro?,uér íz dâ béthrum
+,Básico,40,How much is it?,Quanto custa?,rau mâtch íz it
+,Básico,41,I want this.,Eu quero isto.,ái uánt dis
+,Básico,42,I don't want it.,Não quero.,ái dôunt uánt it
+,Básico,43,What does this mean?,O que isto significa?,uát dâz dis mín
+,Básico,44,Can you write it down?,Pode escrever?,kén iú ráit it dáun
+,Básico,45,"Wait a moment, please.","Espere um momento, por favor.",uêit a môment plíz
+,Básico,46,I'm lost.,Estou perdido(a).,áim lóst
+,Básico,47,I'm in a hurry.,Estou com pressa.,áim in a rârri
+,Básico,48,What?,O quê?,uát
+,Básico,49,Where?,Onde?,uér
+,Básico,50,When?,Quando?,uén
+Férias,Aeroporto e imigração,1,Here is my passport.,Aqui está meu passaporte.,rír íz mái pésport
+Férias,Aeroporto e imigração,2,I'm here on vacation.,Estou aqui de férias.,áim rír on veikêishân
+Férias,Aeroporto e imigração,3,I'm here for ten days.,Vou ficar dez dias.,áim rír fór tén dêiz
+Férias,Aeroporto e imigração,4,I'm staying at a hotel.,Vou ficar em um hotel.,áim stêiin ét a rôutél
+Férias,Aeroporto e imigração,5,This is my first time in the U.S.,É minha primeira vez nos EUA.,dis íz mái fârst táim in dâ iú és
+Férias,Aeroporto e imigração,6,I have a return ticket.,Tenho passagem de volta.,ái rév a ritârn tíkit
+Férias,Aeroporto e imigração,7,Where is the gate?,Onde fica o portão de embarque?,uér íz dâ guêit
+Férias,Aeroporto e imigração,8,Where is baggage claim?,Onde fica a esteira de bagagem?,uér íz béguij clêim
+Férias,Aeroporto e imigração,9,Where is the check-in counter?,Onde fica o balcão de check-in?,uér íz dâ tchékin káunter
+Férias,Aeroporto e imigração,10,My luggage is lost.,Minha bagagem foi extraviada.,mái lâguij íz lóst
+Férias,Aeroporto e imigração,11,Where is customs?,Onde fica a alfândega?,uér íz kâstâmz
+Férias,Aeroporto e imigração,12,I have nothing to declare.,Não tenho nada a declarar.,ái rév nâthin tu diklér
+Férias,Aeroporto e imigração,13,What time is boarding?,A que horas é o embarque?,uát táim íz bórdin
+Férias,Aeroporto e imigração,14,Is my flight on time?,Meu voo está no horário?,íz mái fláit on táim
+Férias,Aeroporto e imigração,15,My flight is delayed.,Meu voo está atrasado.,mái fláit íz dilêid
+Férias,Aeroporto e imigração,16,I missed my flight.,Perdi meu voo.,ái míst mái fláit
+Férias,Aeroporto e imigração,17,I have a connection.,Tenho uma conexão.,ái rév a kanékshân
+Férias,Aeroporto e imigração,18,Where is the exit?,Onde fica a saída?,uér íz di éksit
+Férias,Aeroporto e imigração,19,Where can I get a taxi?,Onde pego um táxi?,uér kén ái guét a téksi
+Férias,Aeroporto e imigração,20,Do you have a window seat?,Tem um assento na janela?,du iú rév a uíndou sít
+Férias,Pedir informação e direções,1,"Excuse me, where is...?","Com licença, onde fica...?",ikskiús mi uér íz
+Férias,Pedir informação e direções,2,How do I get to this address?,Como chego a este endereço?,rau du ái guét tu dis édrés
+Férias,Pedir informação e direções,3,Is it far?,É longe?,íz it fár
+Férias,Pedir informação e direções,4,Is it near?,É perto?,íz it nír
+Férias,Pedir informação e direções,5,Can I walk there?,Dá para ir a pé?,kén ái uók dér
+Férias,Pedir informação e direções,6,Turn left.,Vire à esquerda.,târn léft
+Férias,Pedir informação e direções,7,Turn right.,Vire à direita.,târn ráit
+Férias,Pedir informação e direções,8,Go straight.,Siga em frente.,gôu strêit
+Férias,Pedir informação e direções,9,Can you show me on the map?,Pode me mostrar no mapa?,kén iú shôu mi on dâ mép
+Férias,Pedir informação e direções,10,I'm looking for this place.,Estou procurando este lugar.,áim lukin fór dis plêis
+Férias,Pedir informação e direções,11,It's on the corner.,Fica na esquina.,its on dâ kórner
+Férias,Pedir informação e direções,12,Next to the bank.,Ao lado do banco.,nékst tu dâ bénk
+Férias,Pedir informação e direções,13,Across from the hotel.,Em frente ao hotel.,akrós fram dâ rôutél
+Férias,Pedir informação e direções,14,Where is the nearest subway station?,Onde fica a estação de metrô mais próxima?,uér íz dâ nírest sâbuêi stêishân
+Férias,Pedir informação e direções,15,Where is the nearest pharmacy?,Onde fica a farmácia mais próxima?,uér íz dâ nírest fármasi
+Férias,Pedir informação e direções,16,Where is the nearest ATM?,Onde fica o caixa eletrônico mais próximo?,uér íz dâ nírest êitiém
+Férias,Pedir informação e direções,17,How long does it take?,Quanto tempo leva?,rau lón dâz it têik
+Férias,Pedir informação e direções,18,Is there a bathroom nearby?,Tem banheiro por aqui?,íz dér a béthrum nírbái
+Férias,Pedir informação e direções,19,Do you have a map?,Você tem um mapa?,du iú rév a mép
+Férias,Pedir informação e direções,20,Thank you for your help.,Obrigado pela ajuda.,tênk iú fór iór rélp
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",1,I need a taxi.,Preciso de um táxi.,ái níd a téksi
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",2,"Take me to this address, please.","Leve-me a este endereço, por favor.",têik mi tu dis édrés plíz
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",3,How much is the fare?,Quanto custa a corrida?,rau mâtch íz dâ fér
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",4,Please stop here.,"Pare aqui, por favor.",plíz stóp rír
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",5,I'll pay by card.,Vou pagar no cartão.,áil pêi bái kárd
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",6,Keep the change.,Pode ficar com o troco.,kíp dâ tchêinj
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",7,Can you use the meter?,Pode usar o taxímetro?,kén iú iúz dâ míder
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",8,Where is the bus stop?,Onde fica o ponto de ônibus?,uér íz dâ bâs stóp
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",9,Which bus goes to downtown?,Qual ônibus vai ao centro?,uítch bâs gôuz tu dáuntáun
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",10,How much is the bus fare?,Quanto custa a passagem?,rau mâtch íz dâ bâs fér
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",11,Does this bus go to...?,Este ônibus vai para...?,dâz dis bâs gôu tu
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",12,Can you tell me when to get off?,Pode me avisar quando descer?,kén iú tél mi uén tu guét óf
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",13,Where can I buy a ticket?,Onde compro o bilhete?,uér kén ái bái a tíkit
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",14,Which line goes to...?,Qual linha vai para...?,uítch láin gôuz tu
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",15,What's the next stop?,Qual é a próxima parada?,uáts dâ nékst stóp
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",16,Is this the right train?,Este é o trem certo?,íz dis dâ ráit trêin
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",17,I need to transfer.,Preciso fazer baldeação.,ái níd tu trénsfâr
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",18,I'll call an Uber.,Vou chamar um Uber.,áil kól an iúber
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",19,Where is the pickup point?,Onde é o ponto de encontro com o motorista?,uér íz dâ píkâp póint
+Férias,"Transporte: táxi, aplicativo, ônibus, metrô",20,I'm waiting outside.,Estou esperando do lado de fora.,áim uêirin autsáid
+Férias,Hotel,1,I have a reservation.,Tenho uma reserva.,ái rév a rézârvêishân
+Férias,Hotel,2,I'd like to check in.,Gostaria de fazer check-in.,áid láik tu tchék in
+Férias,Hotel,3,Do you have a room available?,Tem quarto disponível?,du iú rév a rum avêilabol
+Férias,Hotel,4,How much is the room per night?,Quanto custa a diária?,rau mâtch íz dâ rum pâr náit
+Férias,Hotel,5,What time is check-out?,A que horas é o check-out?,uát táim íz tchékáut
+Férias,Hotel,6,I'd like to check out.,Gostaria de fazer check-out.,áid láik tu tchék áut
+Férias,Hotel,7,Is breakfast included?,O café da manhã está incluso?,íz brékfâst inklúdid
+Férias,Hotel,8,What's the Wi-Fi password?,Qual é a senha do Wi-Fi?,uáts dâ uáifái pésuârd
+Férias,Hotel,9,I lost my key.,Perdi minha chave.,ái lóst mái kí
+Férias,Hotel,10,The air conditioning doesn't work.,O ar-condicionado não funciona.,di ér kândishânin dâzânt uârk
+Férias,Hotel,11,There's no hot water.,Não tem água quente.,dérz nôu rót uóder
+Férias,Hotel,12,Can I have more towels?,Pode trazer mais toalhas?,kén ái rév mór táuâlz
+Férias,Hotel,13,Can you call a taxi for me?,Pode chamar um táxi para mim?,kén iú kól a téksi fór mi
+Férias,Hotel,14,Can I leave my luggage here?,Posso deixar minha bagagem aqui?,kén ái lív mái lâguij rír
+Férias,Hotel,15,Can I have a receipt?,Pode me dar o recibo?,kén ái rév a risít
+Férias,Restaurante e comida,1,"A table for two, please.","Uma mesa para dois, por favor.",a têibol fór tú plíz
+Férias,Restaurante e comida,2,"Can I see the menu, please?","Posso ver o cardápio, por favor?",kén ái sí dâ méniu plíz
+Férias,Restaurante e comida,3,I'd like...,Eu gostaria de...,áid láik
+Férias,Restaurante e comida,4,"Water, please.","Água, por favor.",uóder plíz
+Férias,Restaurante e comida,5,What do you recommend?,O que você recomenda?,uát du iú rékaménd
+Férias,Restaurante e comida,6,I'm ready to order.,Estou pronto para pedir.,áim rédi tu órder
+Férias,Restaurante e comida,7,"The check, please.","A conta, por favor.",dâ tchék plíz
+Férias,Restaurante e comida,8,Can I pay by card?,Posso pagar no cartão?,kén ái pêi bái kárd
+Férias,Restaurante e comida,9,Is the tip included?,A gorjeta está inclusa?,íz dâ típ inklúdid
+Férias,Restaurante e comida,10,"To go, please.","Para viagem, por favor.",tu gôu plíz
+Férias,Restaurante e comida,11,I'm hungry.,Estou com fome.,áim rângri
+Férias,Restaurante e comida,12,I'm thirsty.,Estou com sede.,áim thârsti
+Férias,Restaurante e comida,13,I'm allergic to...,Sou alérgico(a) a...,áim alârdjik tu
+Férias,Restaurante e comida,14,I'm vegetarian.,Sou vegetariano(a).,áim védjitériân
+Férias,Restaurante e comida,15,"Without onions, please.","Sem cebola, por favor.",uídáut âniânz plíz
+Férias,Restaurante e comida,16,Is this spicy?,Isto é picante?,íz dis spáisi
+Férias,Restaurante e comida,17,Chicken,Frango,tchíkin
+Férias,Restaurante e comida,18,Beef,Carne bovina,bíf
+Férias,Restaurante e comida,19,Pork,Carne de porco,pórk
+Férias,Restaurante e comida,20,Fish,Peixe,físh
+Férias,Restaurante e comida,21,Rice,Arroz,ráis
+Férias,Restaurante e comida,22,Salad,Salada,sélâd
+Férias,Restaurante e comida,23,French fries,Batata frita,frénch fráiz
+Férias,Restaurante e comida,24,Bread,Pão,bréd
+Férias,Restaurante e comida,25,Coffee,Café,kófi
+Férias,Restaurante e comida,26,Juice,Suco,djús
+Férias,Restaurante e comida,27,Beer,Cerveja,bír
+Férias,Restaurante e comida,28,Dessert,Sobremesa,dizârt
+Férias,Restaurante e comida,29,Can I have a fork?,Pode trazer um garfo?,kén ái rév a fórk
+Férias,Restaurante e comida,30,This is not what I ordered.,Não foi isso que pedi.,dis íz nót uát ái órderd
+Férias,Compras e pagamento,1,How much is this?,Quanto custa isto?,rau mâtch íz dis
+Férias,Compras e pagamento,2,I'll take it.,Vou levar.,áil têik it
+Férias,Compras e pagamento,3,I'm just looking.,Só estou olhando.,áim djâst lukin
+Férias,Compras e pagamento,4,Can I try it on?,Posso experimentar?,kén ái trái it ón
+Férias,Compras e pagamento,5,Do you have a bigger size?,Tem um tamanho maior?,du iú rév a bígâr sáiz
+Férias,Compras e pagamento,6,Do you have a smaller size?,Tem um tamanho menor?,du iú rév a smóler sáiz
+Férias,Compras e pagamento,7,It's too expensive.,Está muito caro.,its tú ikspénsiv
+Férias,Compras e pagamento,8,Do you have a discount?,Tem desconto?,du iú rév a dískáunt
+Férias,Compras e pagamento,9,Do you take credit cards?,Aceita cartão de crédito?,du iú têik krédit kárdz
+Férias,Compras e pagamento,10,Cash or card?,Dinheiro ou cartão?,késh ór kárd
+Férias,Compras e pagamento,11,I'll pay in cash.,Vou pagar em dinheiro.,áil pêi in késh
+Férias,Compras e pagamento,12,Can I have a bag?,Pode me dar uma sacola?,kén ái rév a bég
+Férias,Compras e pagamento,13,Where is the fitting room?,Onde fica o provador?,uér íz dâ fírin rum
+Férias,Compras e pagamento,14,Do you have this in another color?,Tem em outra cor?,du iú rév dis in anâdâr kâlâr
+Férias,Compras e pagamento,15,Where can I buy...?,Onde posso comprar...?,uér kén ái bái
+Férias,Compras e pagamento,16,What time do you open?,A que horas vocês abrem?,uát táim du iú ôupen
+Férias,Compras e pagamento,17,What time do you close?,A que horas vocês fecham?,uát táim du iú klôuz
+Férias,Compras e pagamento,18,Is tax included?,O imposto está incluso?,íz téks inklúdid
+Férias,Compras e pagamento,19,Can I return this?,Posso devolver isto?,kén ái ritârn dis
+Férias,Compras e pagamento,20,Where is the cashier?,Onde fica o caixa?,uér íz dâ késhir
+Férias,Saúde e emergência,1,Call 911!,Chame o 911!,kól náin uân uân
+Férias,Saúde e emergência,2,I need a doctor.,Preciso de um médico.,ái níd a dókter
+Férias,Saúde e emergência,3,Call an ambulance!,Chame uma ambulância!,kól an émbiulâns
+Férias,Saúde e emergência,4,Call the police!,Chame a polícia!,kól dâ pólis
+Férias,Saúde e emergência,5,I don't feel well.,Não estou me sentindo bem.,ái dôunt fíl uél
+Férias,Saúde e emergência,6,It hurts here.,Dói aqui.,it rârts rír
+Férias,Saúde e emergência,7,I can't breathe.,Não consigo respirar.,ái ként bríd
+Férias,Saúde e emergência,8,I have a headache.,Estou com dor de cabeça.,ái rév a rédêik
+Férias,Saúde e emergência,9,I have a stomachache.,Estou com dor de barriga.,ái rév a stâmakêik
+Férias,Saúde e emergência,10,I have a fever.,Estou com febre.,ái rév a fíver
+Férias,Saúde e emergência,11,I need medicine.,Preciso de um remédio.,ái níd médisin
+Férias,Saúde e emergência,12,Where is the nearest hospital?,Onde fica o hospital mais próximo?,uér íz dâ nírest róspital
+Férias,Saúde e emergência,13,I lost my passport.,Perdi meu passaporte.,ái lóst mái pésport
+Férias,Saúde e emergência,14,I was robbed.,Fui roubado(a).,ái uóz róbd
+Férias,Saúde e emergência,15,Is there someone who speaks Portuguese?,Tem alguém que fale português?,íz dér sâmuân rú spíks pórtchuguíz
+Férias,Passeios e turismo,1,Where can I buy tickets?,Onde compro ingressos?,uér kén ái bái tíkits
+Férias,Passeios e turismo,2,How much is the ticket?,Quanto custa o ingresso?,rau mâtch íz dâ tíkit
+Férias,Passeios e turismo,3,What time does it open?,A que horas abre?,uát táim dâz it ôupen
+Férias,Passeios e turismo,4,Is there a guided tour?,Tem visita guiada?,íz dér a guáidid túr
+Férias,Passeios e turismo,5,Can you take a photo of me?,Pode tirar uma foto minha?,kén iú têik a fôudou óv mi
+Férias,Passeios e turismo,6,Is it free?,É grátis?,íz it frí
+Férias,Passeios e turismo,7,What do you recommend to see?,O que você recomenda visitar?,uát du iú rékaménd tu vízit
+Férias,Passeios e turismo,8,Where is the tourist information?,Onde fica a informação turística?,uér íz dâ túris infórmêishân
+Férias,Passeios e turismo,9,Do you have a map in Portuguese?,Tem mapa em português?,du iú rév a mép in pórtchuguíz
+Férias,Passeios e turismo,10,It's beautiful!,É lindo!,its biúrifôl
+Atleta em competição no exterior,Apresentação,1,Nice to meet you all.,Prazer em conhecer todos vocês.,náis tu mít iú ól
+Atleta em competição no exterior,Apresentação,2,I'm a professional athlete.,Sou atleta profissional.,áim a profêshânal éthlit
+Atleta em competição no exterior,Apresentação,3,I represent Brazil.,Eu represento o Brasil.,ái reprizént brazíl
+Atleta em competição no exterior,Apresentação,4,Let me introduce myself.,Deixe-me me apresentar.,lét mi introdiús maisélf
+Atleta em competição no exterior,Apresentação,5,I'm happy to be here.,Estou feliz por estar aqui.,áim répi tu bí rír
+Atleta em competição no exterior,Apresentação,6,It's an honor to be here.,É uma honra estar aqui.,its an ônâr tu bí rír
+Atleta em competição no exterior,Apresentação,7,Thank you for having me.,Obrigado por me receber.,tênk iú fór révin mi
+Atleta em competição no exterior,Apresentação,8,I'm here with my team.,Estou aqui com minha equipe.,áim rír uíth mái tím
+Atleta em competição no exterior,Apresentação,9,I'm twenty-five years old.,Tenho vinte e cinco anos.,áim tuénti fáiv írz
+Atleta em competição no exterior,Apresentação,10,I live in São Paulo.,Moro em São Paulo.,ái liv in sáun páulu
+Atleta em competição no exterior,Apresentação,11,I play...,Eu pratico...,ái plêi
+Atleta em competição no exterior,Apresentação,12,I'm still learning English.,Ainda estou aprendendo inglês.,áim stíl lârnin ínglish
+Atleta em competição no exterior,Apresentação,13,I'm excited to compete here.,Estou animado para competir aqui.,áim iksáitid tu kâmpít rír
+Atleta em competição no exterior,Apresentação,14,Please call me...,Pode me chamar de...,plíz kól mi
+Atleta em competição no exterior,Apresentação,15,I've been playing since I was a kid.,Jogo desde criança.,áiv bín plêin sins ái uóz a kid
+Atleta em competição no exterior,Sua carreira,1,How long have you been competing?,Há quanto tempo você compete?,rau lón rév iú bín kâmpítin
+Atleta em competição no exterior,Sua carreira,2,I've been competing for ten years.,Compito há dez anos.,áiv bín kâmpítin fór tén írz
+Atleta em competição no exterior,Sua carreira,3,When did you start?,Quando você começou?,uén did iú stárt
+Atleta em competição no exterior,Sua carreira,4,I started when I was ten.,Comecei quando tinha dez anos.,ái stártid uén ái uóz tén
+Atleta em competição no exterior,Sua carreira,5,Why did you choose this sport?,Por que você escolheu este esporte?,uái did iú tchúz dis spórt
+Atleta em competição no exterior,Sua carreira,6,I fell in love with it as a kid.,Me apaixonei por ele quando criança.,ái fél in lâv uíth it éz a kid
+Atleta em competição no exterior,Sua carreira,7,Who inspired you?,Quem inspirou você?,rú inspáird iú
+Atleta em competição no exterior,Sua carreira,8,My family inspired me.,Minha família me inspirou.,mái fémili inspáird mi
+Atleta em competição no exterior,Sua carreira,9,What is your biggest achievement?,Qual é a sua maior conquista?,uát íz iór bíguest âtchívment
+Atleta em competição no exterior,Sua carreira,10,Winning my first title.,Ganhar meu primeiro título.,uínin mái fârst táitol
+Atleta em competição no exterior,Sua carreira,11,How did you get here?,Como você chegou até aqui?,rau did iú guét rír
+Atleta em competição no exterior,Sua carreira,12,It was a long journey.,Foi uma longa jornada.,it uóz a lón djârni
+Atleta em competição no exterior,Sua carreira,13,I worked very hard.,Trabalhei muito duro.,ái uârkt véri rárd
+Atleta em competição no exterior,Sua carreira,14,I never gave up.,Nunca desisti.,ái néver guêiv âp
+Atleta em competição no exterior,Sua carreira,15,What was the hardest moment?,Qual foi o momento mais difícil?,uát uóz dâ rárdist môument
+Atleta em competição no exterior,Sua carreira,16,I had a serious injury.,Tive uma lesão grave.,ái réd a sírius índjuri
+Atleta em competição no exterior,Sua carreira,17,How did you come back?,Como você voltou?,rau did iú kâm bék
+Atleta em competição no exterior,Sua carreira,18,My team supported me.,Minha equipe me apoiou.,mái tím sâpórtid mi
+Atleta em competição no exterior,Sua carreira,19,Who is your coach?,Quem é o seu técnico?,rú íz iór kôutch
+Atleta em competição no exterior,Sua carreira,20,My coach is like a father to me.,Meu técnico é como um pai para mim.,mái kôutch íz láik a fádâr tu mi
+Atleta em competição no exterior,Sua carreira,21,What are your goals?,Quais são as suas metas?,uát ár iór gôuls
+Atleta em competição no exterior,Sua carreira,22,I want to be the best.,Quero ser o melhor.,ái uánt tu bí dâ bést
+Atleta em competição no exterior,Sua carreira,23,Who is your role model?,Quem é o seu ídolo?,rú íz iór rôul módol
+Atleta em competição no exterior,Sua carreira,24,Which team do you play for?,Por qual equipe você joga?,uítch tím du iú plêi fór
+Atleta em competição no exterior,Sua carreira,25,I'm proud of my career.,Tenho orgulho da minha carreira.,áim práud óv mái karír
+Atleta em competição no exterior,Preparação e treino,1,How do you prepare?,Como você se prepara?,rau du iú pripér
+Atleta em competição no exterior,Preparação e treino,2,I train every day.,Treino todos os dias.,ái trêin évri dêi
+Atleta em competição no exterior,Preparação e treino,3,I train six days a week.,Treino seis dias por semana.,ái trêin síks dêiz a uík
+Atleta em competição no exterior,Preparação e treino,4,How many hours do you train?,Quantas horas você treina?,rau méni áurz du iú trêin
+Atleta em competição no exterior,Preparação e treino,5,I train five hours a day.,Treino cinco horas por dia.,ái trêin fáiv áurz a dêi
+Atleta em competição no exterior,Preparação e treino,6,What is your routine?,Qual é a sua rotina?,uát íz iór rutín
+Atleta em competição no exterior,Preparação e treino,7,I wake up early.,Acordo cedo.,ái uêik âp ârli
+Atleta em competição no exterior,Preparação e treino,8,I follow a strict diet.,Sigo uma dieta rigorosa.,ái fólou a strikt dáiet
+Atleta em competição no exterior,Preparação e treino,9,I get enough sleep.,Durmo o suficiente.,ái guét inâf slíp
+Atleta em competição no exterior,Preparação e treino,10,How is your preparation going?,Como está a sua preparação?,rau íz iór prépârêishân
+Atleta em competição no exterior,Preparação e treino,11,It's going very well.,Está indo muito bem.,its gôuin véri uél
+Atleta em competição no exterior,Preparação e treino,12,I feel strong.,Me sinto forte.,ái fíl strón
+Atleta em competição no exterior,Preparação e treino,13,I feel ready.,Me sinto pronto.,ái fíl rédi
+Atleta em competição no exterior,Preparação e treino,14,Are you in good shape?,Você está em boa forma?,ár iú in gud shêip
+Atleta em competição no exterior,Preparação e treino,15,I'm in the best shape of my life.,Estou na melhor forma da minha vida.,áim in dâ bést shêip óv mái láif
+Atleta em competição no exterior,Preparação e treino,16,Do you have any injuries?,Você tem alguma lesão?,du iú rév éni índjuriz
+Atleta em competição no exterior,Preparação e treino,17,I'm one hundred percent.,Estou cem por cento.,áim uân rândred pârsént
+Atleta em competição no exterior,Preparação e treino,18,How do you stay motivated?,Como você se mantém motivado?,rau du iú stêi môutivêitid
+Atleta em competição no exterior,Preparação e treino,19,I focus on my goals.,Foco nos meus objetivos.,ái fôukâs on mái gôuls
+Atleta em competição no exterior,Preparação e treino,20,I work with a great team.,Trabalho com uma ótima equipe.,ái uârk uíth a grêit tím
+Atleta em competição no exterior,Preparação e treino,21,Did you change your training?,Você mudou o seu treino?,did iú tchêinj iór trêinin
+Atleta em competição no exterior,Preparação e treino,22,We worked on my weak points.,Trabalhamos nos meus pontos fracos.,uí uârkt on mái uík póints
+Atleta em competição no exterior,Preparação e treino,23,I watch videos of my opponents.,Assisto a vídeos dos meus adversários.,ái uótch vídiôuz óv mái opôunents
+Atleta em competição no exterior,Preparação e treino,24,I do mental training too.,Também faço treino mental.,ái du méntal trêinin tu
+Atleta em competição no exterior,Preparação e treino,25,Rest is important too.,Descansar também é importante.,rést íz impórtânt tu
+Atleta em competição no exterior,Antes da competição,1,Are you nervous?,Você está nervoso?,ár iú nârvâs
+Atleta em competição no exterior,Antes da competição,2,"A little, but I'm ready.","Um pouco, mas estou pronto.",a lítol bât áim rédi
+Atleta em competição no exterior,Antes da competição,3,How do you feel?,Como você se sente?,rau du iú fíl
+Atleta em competição no exterior,Antes da competição,4,I feel confident.,Me sinto confiante.,ái fíl kónfidênt
+Atleta em competição no exterior,Antes da competição,5,I'm excited.,Estou animado.,áim iksáitid
+Atleta em competição no exterior,Antes da competição,6,What is your plan for the competition?,Qual é o seu plano para a competição?,uát íz iór plén fór dâ kâmpitíshân
+Atleta em competição no exterior,Antes da competição,7,I will give my best.,Vou dar o meu melhor.,ái uíl guív mái bést
+Atleta em competição no exterior,Antes da competição,8,I'll do my best.,Farei o meu melhor.,áil du mái bést
+Atleta em competição no exterior,Antes da competição,9,Who is your toughest opponent?,Quem é o seu adversário mais difícil?,rú íz iór tâfist opôunent
+Atleta em competição no exterior,Antes da competição,10,I respect all my opponents.,Respeito todos os meus adversários.,ái rispékt ól mái opôunents
+Atleta em competição no exterior,Antes da competição,11,Are you the favorite?,Você é o favorito?,ár iú dâ fêivrit
+Atleta em competição no exterior,Antes da competição,12,I don't think about that.,Não penso nisso.,ái dôunt think abáut dét
+Atleta em competição no exterior,Antes da competição,13,I only think about my performance.,Só penso no meu desempenho.,ái ôunli think abáut mái pârfórmâns
+Atleta em competição no exterior,Antes da competição,14,How is the atmosphere here?,Como está o clima aqui?,rau íz di étmosfir rír
+Atleta em competição no exterior,Antes da competição,15,The crowd is amazing.,O público é incrível.,dâ kráud íz amêizin
+Atleta em competição no exterior,Antes da competição,16,Is it hard to compete abroad?,É difícil competir no exterior?,íz it rárd tu kâmpít abród
+Atleta em competição no exterior,Antes da competição,17,"I'm far from home, but I feel welcome.","Estou longe de casa, mas me sinto bem-vindo.",áim fár fram rôum bât ái fíl uélkâm
+Atleta em competição no exterior,Antes da competição,18,I miss my family.,Sinto saudade da minha família.,ái mis mái fémili
+Atleta em competição no exterior,Antes da competição,19,I have a lot of support from Brazil.,Tenho muito apoio do Brasil.,ái rév a lót óv sâpórt fram brazíl
+Atleta em competição no exterior,Antes da competição,20,I'm ready to go.,Estou pronto para começar.,áim rédi tu gôu
+Atleta em competição no exterior,Se você ganhar,1,This win means a lot to me.,Essa vitória significa muito para mim.,dis uín míns a lót tu mi
+Atleta em competição no exterior,Se você ganhar,2,I'm so happy!,Estou muito feliz!,áim sôu répi
+Atleta em competição no exterior,Se você ganhar,3,I can't believe it!,Não acredito!,ái ként bilív it
+Atleta em competição no exterior,Se você ganhar,4,It's a dream come true.,É um sonho que virou realidade.,its a drím kâm trú
+Atleta em competição no exterior,Se você ganhar,5,I worked so hard for this.,Trabalhei muito por isso.,ái uârkt sôu rárd fór dis
+Atleta em competição no exterior,Se você ganhar,6,How do you feel about the win?,O que você sente sobre a vitória?,rau du iú fíl abáut dâ uín
+Atleta em competição no exterior,Se você ganhar,7,Congratulations on your win!,Parabéns pela sua vitória!,kângrétchulêishâns on iór uín
+Atleta em competição no exterior,Se você ganhar,8,It was a tough match.,Foi uma disputa difícil.,it uóz a tâf métch
+Atleta em competição no exterior,Se você ganhar,9,It was a close one.,Foi por pouco.,it uóz a klôus uân
+Atleta em competição no exterior,Se você ganhar,10,My opponent played very well.,Meu adversário jogou muito bem.,mái opôunent plêid véri uél
+Atleta em competição no exterior,Se você ganhar,11,We played as a team.,Jogamos como equipe.,uí plêid éz a tím
+Atleta em competição no exterior,Se você ganhar,12,The team did an amazing job.,A equipe fez um trabalho incrível.,dâ tím did an amêizin djób
+Atleta em competição no exterior,Se você ganhar,13,What was the key to victory?,Qual foi a chave da vitória?,uát uóz dâ kí tu víktri
+Atleta em competição no exterior,Se você ganhar,14,Hard work and focus.,Trabalho duro e foco.,rárd uârk énd fôukâs
+Atleta em competição no exterior,Se você ganhar,15,What does this victory mean to you?,O que essa vitória significa para você?,uát dâz dis víktri mín tu iú
+Atleta em competição no exterior,Se você ganhar,16,It's the best day of my life.,É o melhor dia da minha vida.,its dâ bést dêi óv mái láif
+Atleta em competição no exterior,Se você ganhar,17,I dedicate this win to my family.,Dedico esta vitória à minha família.,ái dédikêit dis uín tu mái fémili
+Atleta em competição no exterior,Se você ganhar,18,I dedicate this to Brazil.,Dedico isto ao Brasil.,ái dédikêit dis tu brazíl
+Atleta em competição no exterior,Se você ganhar,19,This is only the beginning.,Isso é só o começo.,dis íz ôunli dâ biguínin
+Atleta em competição no exterior,Se você ganhar,20,What's next for you?,Qual é o seu próximo passo?,uáts nékst fór iú
+Atleta em competição no exterior,Se você ganhar,21,I'll keep working hard.,Vou continuar trabalhando duro.,áil kíp uârkin rárd
+Atleta em competição no exterior,Se você ganhar,22,I'm proud of myself.,Tenho orgulho de mim.,áim práud óv maisélf
+Atleta em competição no exterior,Se você ganhar,23,I'm proud of my team.,Tenho orgulho da minha equipe.,áim práud óv mái tím
+Atleta em competição no exterior,Se você ganhar,24,I want to celebrate with my family.,Quero comemorar com a minha família.,ái uánt tu sélibrêit uíth mái fémili
+Atleta em competição no exterior,Se você ganhar,25,I'm very grateful.,Sou muito grato.,áim véri grêitful
+Atleta em competição no exterior,Se você perder,1,I'm disappointed.,Estou decepcionado.,áim disapóintid
+Atleta em competição no exterior,Se você perder,2,It wasn't my day.,Não foi o meu dia.,it uózânt mái dêi
+Atleta em competição no exterior,Se você perder,3,How do you feel about the loss?,O que você sente sobre a derrota?,rau du iú fíl abáut dâ lós
+Atleta em competição no exterior,Se você perder,4,It's hard to accept this loss.,É difícil aceitar essa derrota.,its rárd tu aksépt dis lós
+Atleta em competição no exterior,Se você perder,5,My opponent was better today.,Meu adversário foi melhor hoje.,mái opôunent uóz bédâr tudêi
+Atleta em competição no exterior,Se você perder,6,Congratulations to the winner.,Parabéns ao vencedor.,kângrétchulêishâns tu dâ uínâr
+Atleta em competição no exterior,Se você perder,7,I gave everything I had.,Dei tudo o que eu tinha.,ái guêiv évriting ái réd
+Atleta em competição no exterior,Se você perder,8,I made some mistakes.,Cometi alguns erros.,ái mêid sâm mistêiks
+Atleta em competição no exterior,Se você perder,9,I have to learn from this.,Preciso aprender com isso.,ái rév tu lârn fram dis
+Atleta em competição no exterior,Se você perder,10,What went wrong?,O que deu errado?,uát uént rón
+Atleta em competição no exterior,Se você perder,11,I don't want to make excuses.,Não quero dar desculpas.,ái dôunt uánt tu mêik ikskiúziz
+Atleta em competição no exterior,Se você perder,12,I'll come back stronger.,Voltarei mais forte.,áil kâm bék strónguer
+Atleta em competição no exterior,Se você perder,13,We'll come back stronger.,Voltaremos mais fortes.,uíl kâm bék strónguer
+Atleta em competição no exterior,Se você perder,14,Losing is part of the game.,Perder faz parte do jogo.,lúzin íz párt óv dâ guêim
+Atleta em competição no exterior,Se você perder,15,I'll keep fighting.,Vou continuar lutando.,áil kíp fáitin
+Atleta em competição no exterior,Se você perder,16,I'll try again.,Vou tentar de novo.,áil trái aguén
+Atleta em competição no exterior,Se você perder,17,Are you going to quit?,Você vai desistir?,ár iú gôuin tu kuít
+Atleta em competição no exterior,Se você perder,18,"No, I will never quit.","Não, eu nunca vou desistir.",nôu ái uíl néver kuít
+Atleta em competição no exterior,Se você perder,19,What will you do now?,O que você vai fazer agora?,uát uíl iú du náu
+Atleta em competição no exterior,Se você perder,20,I need some time to think.,Preciso de um tempo para pensar.,ái níd sâm táim tu think
+Atleta em competição no exterior,Se você perder,21,I'm sorry to let you down.,Sinto muito por decepcionar vocês.,áim sóri tu lét iú dáun
+Atleta em competição no exterior,Se você perder,22,I respect the result.,Respeito o resultado.,ái rispékt dâ rizâlt
+Atleta em competição no exterior,Se você perder,23,The next one will be different.,A próxima será diferente.,dâ nékst uân uíl bí diferent
+Atleta em competição no exterior,Se você perder,24,I'm not giving up.,Não vou desistir.,áim nót guívin âp
+Atleta em competição no exterior,Se você perder,25,"I'm sad, but I'm still proud.","Estou triste, mas ainda tenho orgulho.",áim séd bât áim stíl práud
+Atleta em competição no exterior,Agradecimentos,1,Thank you for your support.,Obrigado pelo seu apoio.,tênk iú fór iór sâpórt
+Atleta em competição no exterior,Agradecimentos,2,Thank you to my family.,Obrigado à minha família.,tênk iú tu mái fémili
+Atleta em competição no exterior,Agradecimentos,3,Thank you to my team.,Obrigado à minha equipe.,tênk iú tu mái tím
+Atleta em competição no exterior,Agradecimentos,4,Thank you to my coach.,Obrigado ao meu técnico.,tênk iú tu mái kôutch
+Atleta em competição no exterior,Agradecimentos,5,Thank you to my fans.,Obrigado aos meus torcedores.,tênk iú tu mái féns
+Atleta em competição no exterior,Agradecimentos,6,Thank you to everyone.,Obrigado a todos.,tênk iú tu évriuân
+Atleta em competição no exterior,Agradecimentos,7,Thank you to my sponsors.,Obrigado aos meus patrocinadores.,tênk iú tu mái spónsârs
+Atleta em competição no exterior,Agradecimentos,8,I couldn't do this without you.,Eu não conseguiria sem vocês.,ái kudânt du dis uidáut iú
+Atleta em competição no exterior,Agradecimentos,9,I'm grateful for this opportunity.,Sou grato por esta oportunidade.,áim grêitful fór dis opârtiúniti
+Atleta em competição no exterior,Agradecimentos,10,You are always with me.,Vocês estão sempre comigo.,iú ár ólueiz uíth mi
+Atleta em competição no exterior,Agradecimentos,11,Thank you for believing in me.,Obrigado por acreditar em mim.,tênk iú fór bilívin in mi
+Atleta em competição no exterior,Agradecimentos,12,Thank you for the warm welcome.,Obrigado pela recepção calorosa.,tênk iú fór dâ uórm uélkâm
+Atleta em competição no exterior,Agradecimentos,13,"Thank you, Brazil!","Obrigado, Brasil!",tênk iú brazíl
+Atleta em competição no exterior,Agradecimentos,14,Thank you to the organizers.,Obrigado aos organizadores.,tênk iú tu di órgânaizârs
+Atleta em competição no exterior,Agradecimentos,15,Thank you to the crowd.,Obrigado ao público.,tênk iú tu dâ kráud
+Atleta em competição no exterior,Agradecimentos,16,Thank you to the doctors and staff.,Obrigado aos médicos e à equipe de apoio.,tênk iú tu dâ dóktârs énd stéf
+Atleta em competição no exterior,Agradecimentos,17,I appreciate it.,Eu agradeço.,ái aprísiêit it
+Atleta em competição no exterior,Agradecimentos,18,I really appreciate your love.,Agradeço de verdade o carinho de vocês.,ái ríli aprísiêit iór lâv
+Atleta em competição no exterior,Agradecimentos,19,This is for you.,Isto é para vocês.,dis íz fór iú
+Atleta em competição no exterior,Agradecimentos,20,You mean the world to me.,Vocês significam o mundo para mim.,iú mín dâ uârld tu mi
+Atleta em competição no exterior,Perguntas difíceis,1,I don't want to talk about that.,Não quero falar sobre isso.,ái dôunt uánt tu tók abáut dét
+Atleta em competição no exterior,Perguntas difíceis,2,I'd rather not answer that.,Prefiro não responder isso.,áid rédâr nót énsâr dét
+Atleta em competição no exterior,Perguntas difíceis,3,That's a personal question.,Essa é uma pergunta pessoal.,déts a pârsonal kuéstchân
+Atleta em competição no exterior,Perguntas difíceis,4,Can you repeat the question?,Pode repetir a pergunta?,kén iú ripít dâ kuéstchân
+Atleta em competição no exterior,Perguntas difíceis,5,I didn't understand the question.,Não entendi a pergunta.,ái dídânt ândârsténd dâ kuéstchân
+Atleta em competição no exterior,Perguntas difíceis,6,Let me think about it.,Deixe-me pensar.,lét mi think abáut it
+Atleta em competição no exterior,Perguntas difíceis,7,That's a good question.,Essa é uma boa pergunta.,déts a gud kuéstchân
+Atleta em competição no exterior,Perguntas difíceis,8,I'm not sure.,Não tenho certeza.,áim nót shúr
+Atleta em competição no exterior,Perguntas difíceis,9,It's too early to say.,É cedo demais para dizer.,its tú ârli tu sêi
+Atleta em competição no exterior,Perguntas difíceis,10,I can't say right now.,Não posso dizer agora.,ái ként sêi ráit náu
+Atleta em competição no exterior,Perguntas difíceis,11,I will focus on the competition.,Vou focar na competição.,ái uíl fôukâs on dâ kâmpitíshân
+Atleta em competição no exterior,Perguntas difíceis,12,I don't read the news.,Não leio notícias.,ái dôunt ríd dâ núz
+Atleta em competição no exterior,Perguntas difíceis,13,Do you feel the pressure?,Você sente a pressão?,du iú fíl dâ préshâr
+Atleta em competição no exterior,Perguntas difíceis,14,There is always pressure.,Sempre há pressão.,dér íz ólueiz préshâr
+Atleta em competição no exterior,Perguntas difíceis,15,I use pressure as motivation.,Uso a pressão como motivação.,ái iús préshâr éz môutivêishân
+Atleta em competição no exterior,Perguntas difíceis,16,Are you afraid of losing?,Você tem medo de perder?,ár iú afrêid óv lúzin
+Atleta em competição no exterior,Perguntas difíceis,17,"No, I'm not afraid.","Não, não tenho medo.",nôu áim nót afrêid
+Atleta em competição no exterior,Perguntas difíceis,18,Do you think you're the best?,Você acha que é o melhor?,du iú think iór dâ bést
+Atleta em competição no exterior,Perguntas difíceis,19,I let the results speak for themselves.,Deixo os resultados falarem por si.,ái lét dâ rizâlts spík fór dêmsélvz
+Atleta em competição no exterior,Perguntas difíceis,20,What do you say to your critics?,O que você diz aos seus críticos?,uát du iú sêi tu iór krítiks
+Atleta em competição no exterior,Perguntas difíceis,21,I respect everyone's opinion.,Respeito a opinião de todos.,ái rispékt évriuâns opínion
+Atleta em competição no exterior,Perguntas difíceis,22,I only focus on what I can control.,Só foco no que posso controlar.,ái ôunli fôukâs on uát ái kén kântrôul
+Atleta em competição no exterior,Perguntas difíceis,23,Were you surprised by the result?,Você se surpreendeu com o resultado?,uér iú sârpráizd bái dâ rizâlt
+Atleta em competição no exterior,Perguntas difíceis,24,"Yes, a little.","Sim, um pouco.",iés a lítol
+Atleta em competição no exterior,Perguntas difíceis,25,Do you have a message for your rivals?,Você tem uma mensagem para os seus rivais?,du iú rév a mésij fór iór ráivâls
+Atleta em competição no exterior,Perguntas difíceis,26,Good luck to everyone.,Boa sorte a todos.,gud lâk tu évriuân
+Atleta em competição no exterior,Perguntas difíceis,27,Will you retire soon?,Você vai se aposentar em breve?,uíl iú ritáiâr sún
+Atleta em competição no exterior,Perguntas difíceis,28,"No, I still have a lot to give.","Não, ainda tenho muito a dar.",nôu ái stíl rév a lót tu guív
+Atleta em competição no exterior,Perguntas difíceis,29,Is there anything you want to say?,Tem algo que você queira dizer?,íz dér éniting iú uánt tu sêi
+Atleta em competição no exterior,Perguntas difíceis,30,I have nothing more to say.,Não tenho mais nada a dizer.,ái rév nâthin mór tu sêi
+Atleta em competição no exterior,Final da coletiva,1,Any more questions?,Mais alguma pergunta?,éni mór kuéstchâns
+Atleta em competição no exterior,Final da coletiva,2,"One last question, please.","Uma última pergunta, por favor.",uân lést kuéstchân plíz
+Atleta em competição no exterior,Final da coletiva,3,Thank you all for coming.,Obrigado a todos por virem.,tênk iú ól fór kâmin
+Atleta em competição no exterior,Final da coletiva,4,Thank you for your questions.,Obrigado pelas perguntas.,tênk iú fór iór kuéstchâns
+Atleta em competição no exterior,Final da coletiva,5,That's all for today.,É tudo por hoje.,déts ól fór tudêi
+Atleta em competição no exterior,Final da coletiva,6,See you at the next press conference.,Nos vemos na próxima coletiva.,sí iú ét dâ nékst prés kónferêns
+Atleta em competição no exterior,Final da coletiva,7,"Have a great day, everyone.","Tenham um ótimo dia, pessoal.",rév a grêit dêi évriuân
+Atleta em competição no exterior,Final da coletiva,8,It was a pleasure to talk with you.,Foi um prazer conversar com vocês.,it uóz a plêjâr tu tók uíth iú
+Atleta em competição no exterior,Final da coletiva,9,I have to go now.,Preciso ir agora.,ái rév tu gôu náu
+Atleta em competição no exterior,Final da coletiva,10,I need to rest now.,Preciso descansar agora.,ái níd tu rést náu
+Atleta em competição no exterior,Final da coletiva,11,I have a training session now.,Tenho um treino agora.,ái rév a trêinin séshân
+Atleta em competição no exterior,Final da coletiva,12,"Thank you, see you soon.","Obrigado, até breve.",tênk iú sí iú sún
+Atleta em competição no exterior,Final da coletiva,13,Can we take a photo?,Podemos tirar uma foto?,kén uí têik a fôutou
+Atleta em competição no exterior,Final da coletiva,14,Good luck with your story.,Boa sorte com a sua matéria.,gud lâk uíth iór stóri
+Atleta em competição no exterior,Final da coletiva,15,"Goodbye, everyone.","Tchau, pessoal.",gudbái évriuân
