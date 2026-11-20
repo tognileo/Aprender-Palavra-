@@ -1,0 +1,179 @@
+# PROJETO "APRENDER PALAVRAS": DOCUMENTAÇÃO COMPLETA PARA VOCÊ (IA)
+
+Leia tudo antes de responder. Sou iniciante em programação e quero que você me ajude a desenvolver esta aplicação do zero. Este documento reúne tudo o que já foi decidido, e eu uso a palavra "decidido" em sentido forte: não mude. Quando algo NÃO estiver definido aqui, PERGUNTE antes de decidir. Não invente funcionalidades, não mude o design, não troque as tecnologias e não crie tabelas, campos ou rotas fora do que está aqui sem explicar a finalidade e esperar minha aprovação.
+
+Este documento substitui qualquer versão anterior do projeto. Se você encontrar menções a "entrevista de visto de trabalho" ou a um "dicionário pessoal" em algum material, ignore: foram versões antigas, descartadas.
+
+Anexos que acompanham este prompt:
+1. expressoes_versao_atleta.csv: o conteúdo completo (400 expressões).
+2. Aprender_Palavras___Telas__Atleta_.html: as 8 telas do design aprovado, só como referência visual. Não redesenhe nem altere nada nelas.
+
+## 1. O QUE É A APLICAÇÃO
+
+"Aprender Palavras" é um site que ensina, em pouco tempo, as principais expressões em inglês americano (EUA) para pessoas que precisam viajar com urgência e têm inglês zero. O objetivo é a pessoa se virar lá fora. Não é um dicionário completo nem um curso de inglês: é um guia rápido e prático.
+
+O conteúdo fica em um banco de dados, organizado em NICHOS (motivos de viagem). Cada nicho é dividido em GRUPOS (situações). Cada pessoa escolhe um nicho no cadastro, estuda as expressões dos grupos desse nicho, marca as que já memorizou e depois treina com minigames, um grupo por vez.
+
+## 2. CONTEXTO DO PROJETO
+
+- É um projeto do curso Jovem Programador. O professor não exige nada específico (sem número mínimo de tabelas, perfis ou funções).
+- Prazo: uma semana e meia a partir do envio deste documento.
+- É uma aplicação inicial: problemas secundários ficam para depois.
+- Usuário final: qualquer pessoa que precise aprender rápido as principais expressões. Nível de inglês: zero. Destino: EUA (inglês americano).
+- O site é usado no COMPUTADOR (telas de 1440x900). Não precisa ser pensado para celular.
+- Eu sou iniciante em programação. Explique tudo com palavras simples.
+
+## 3. NICHOS E GRUPOS (DEFINIDO)
+
+Existem apenas 2 nichos. Cada pessoa tem um único nicho, escolhido no cadastro, e NÃO pode trocar depois (se escolher errado, terá que criar outra conta; isso será tratado no futuro).
+
+### Grupo "Básico" (vale para os dois nichos)
+Frases globais, que aparecem para todos: cumprimentos e despedidas, por favor, obrigado, desculpa, sim e não, "não entendi", "pode repetir?", "fale mais devagar", "não sei", "meu inglês é pouco", pedir ajuda, perguntas simples (onde, quando, quanto custa). 50 expressões. É SEMPRE o grupo 1.
+
+### Nicho 1: "Férias" (150 expressões além do Básico)
+Grupos, na ordem (o grupo 2 é o primeiro, o grupo 9 é o último):
+- Grupo 2: Aeroporto e imigração (20)
+- Grupo 3: Pedir informação e direções (20)
+- Grupo 4: Transporte: táxi, aplicativo, ônibus, metrô (20)
+- Grupo 5: Hotel (15)
+- Grupo 6: Restaurante e comida (30)
+- Grupo 7: Compras e pagamento (20)
+- Grupo 8: Saúde e emergência (15)
+- Grupo 9: Passeios e turismo (10)
+
+### Nicho 2: "Atleta em competição no exterior" (200 expressões além do Básico)
+Para um atleta que ganhou reconhecimento há pouco tempo e precisa competir nos EUA. O site o ensina SOMENTE a responder perguntas de repórteres e a falar caso ganhe ou perca. O repórter e o esporte são GENÉRICOS (serve para qualquer esporte). O conteúdo mistura as perguntas do repórter (para o atleta entender) com as respostas dele (para falar). Grupos, na ordem (o grupo 2 é o primeiro, o grupo 10 é o último):
+- Grupo 2: Apresentação (15)
+- Grupo 3: Sua carreira (25)
+- Grupo 4: Preparação e treino (25)
+- Grupo 5: Antes da competição (20)
+- Grupo 6: Se você ganhar (25)
+- Grupo 7: Se você perder (25)
+- Grupo 8: Agradecimentos (20)
+- Grupo 9: Perguntas difíceis (30)
+- Grupo 10: Final da coletiva (15)
+
+Total no arquivo CSV: 50 (Básico) + 150 (Férias) + 200 (Atleta) = 400 expressões. O nome do nicho que aparece no cadastro (onde a pessoa escolhe o "motivo da viagem") é "Atleta em competição no exterior" e, para o outro, "Férias".
+
+### Ordem dos grupos
+O Básico é o grupo 1. Depois vêm os grupos do nicho da pessoa, na ordem listada acima. A ordem vale só dentro do nicho dela.
+
+## 4. REGRAS DO CONTEÚDO
+
+- O banco deve aceitar muito mais expressões no futuro.
+- A ordem de importância vale DENTRO de cada grupo (1 = mais importante). A importância é a frequência de uso no dia a dia, estimada por julgamento (não há medição).
+- Cada expressão tem: inglês, tradução em português, pronúncia escrita em português do Brasil (aproximada) e áudio (campo vazio por enquanto).
+- Estilo da pronúncia: SEM hífens, com acentos nas sílabas fortes, e o som do H do inglês escrito com "r". Exemplos: "tênk iú" (thank you), "rau ár iú" (how are you), "relô" (hello). A pronúncia é aproximada e vale uma revisão por falante de inglês.
+- Não existe tela de administrador. As expressões entram direto pelo banco.
+
+### Arquivo CSV (expressoes_versao_atleta.csv)
+- Colunas, nesta ordem: nicho, grupo, ordem, ingles, portugues, pronuncia.
+- No grupo Básico, a coluna "nicho" fica VAZIA (igual ao nicho_id vazio no banco).
+- O CSV não tem coluna de ordem dos grupos: o script de importação deve usar a ordem em que os grupos aparecem no arquivo.
+- O arquivo está em UTF-8 com BOM (para abrir certo no Excel). O script Python deve ler com encoding="utf-8-sig".
+- Linhas terminam em CRLF.
+- Já foi conferido: cada grupo tem a quantidade certa, não há campos vazios (exceto "nicho" no Básico), a ordem de cada grupo vai de 1 em diante e nenhuma expressão em inglês se repete.
+- As expressões entram no banco por esse CSV e por um script Python de importação, que pode ser executado de novo para acrescentar mais expressões. (Como evitar duplicar o que já existe ao rodar de novo é um ponto que você deve me propor e explicar antes de implementar.)
+
+## 5. COMO O SITE FUNCIONA (DEFINIDO)
+
+### Cadastro e login
+- Cadastro com: nome (só para exibir), e-mail (único, usado no login), senha (guardada criptografada) e motivo da viagem, que define o nicho. O e-mail pode ser qualquer um, inclusive Gmail. NÃO é "Entrar com Google".
+- Login com e-mail e senha.
+- Autenticação por TOKEN (JWT), decidido por mim. O servidor entrega um token assinado com o id do usuário e a validade; o navegador guarda o token e o envia a cada requisição num cabeçalho (fetch). Não cria tabela nova e não guarda nada no servidor.
+- Existe botão de "Sair": ele apaga o token do navegador. O token expira sozinho depois de algumas horas. (A limitação conhecida, de não poder cancelar o token antes de vencer, é aceita nesta primeira versão.)
+- Nesta primeira versão, NÃO há recuperação de senha nem verificação de e-mail (confirmar comigo antes de acrescentar).
+
+### Tela de estudo (a principal)
+- Ao abrir o site, a pessoa SEMPRE vai para o grupo 1, o Básico. Ela não volta de onde parou: avança apertando a setinha até chegar ao grupo onde quer estudar.
+- Navegação entre grupos: setinha para avançar ao grupo seguinte e setinha para voltar ao grupo anterior. NÃO existe lista de grupos nesta tela.
+- Cada expressão do grupo aparece com: inglês, tradução, como se escreve a pronúncia em português, botão de áudio e botão "Já memorizei".
+- Existem duas abas: "Para estudar" e "Já memorizadas". Só a pessoa move as expressões (os minigames NUNCA movem). Dá para voltar atrás: uma expressão memorizada pode ser devolvida para "Para estudar".
+- O dicionário já começa com TODAS as expressões do nicho (mais o Básico), sem a pessoa precisar adicionar nada.
+- O site NÃO mostra progresso nem a quantidade de expressões do nicho. A pessoa não precisa saber quantas existem.
+- A pessoa NÃO pode editar, excluir nem criar expressões.
+
+### Minigames
+- A tela de estudo tem um botão "Minigames". Ao clicar, aparece uma tela para a pessoa ESCOLHER O GRUPO em que quer jogar (grupo 1, grupo 2... até o último do nicho dela).
+- Depois de escolher o grupo, a pessoa escolhe apenas a DIREÇÃO do jogo: "inglês para português" ou "português para inglês".
+- O jogo usa somente as expressões do grupo escolhido (se escolher o grupo 1, só aparecem expressões do grupo 1), tanto as que estão em "Já memorizadas" quanto as que estão em "Para estudar".
+- Os minigames não decidem o que a pessoa memorizou (nunca movem expressões entre as abas).
+- PENDENTE (ver seção 9): formato da pergunta e regras. NÃO implemente antes de eu aprovar uma versão simples.
+
+## 6. BANCO DE DADOS (DEFINIDO)
+
+Use MySQL (NÃO MariaDB), com charset utf8mb4 por causa dos acentos, e SQLAlchemy. Cinco tabelas aprovadas (e só elas):
+
+| Tabela | Colunas | Função |
+|---|---|---|
+| nichos | id, nome | Os dois nichos |
+| grupos | id, nome, ordem, nicho_id | As situações. O grupo "Básico" tem nicho_id vazio (vale para todos, sem copiar frases) |
+| expressoes | id, grupo_id, ingles, portugues, pronuncia, ordem, audio | As frases. "ordem" é a importância dentro do grupo. "audio" começa vazio (aceita nulo) |
+| usuarios | id, nome, email (único), senha (criptografada), nicho_id | A conta. O nicho é fixo |
+| memorizadas | usuario_id, expressao_id | Se existe linha, a expressão está em "Já memorizadas"; se não existe, está em "Para estudar". Voltar atrás é apagar a linha |
+
+Como o dicionário já começa com tudo, NÃO se copia as expressões para cada usuário: só se guarda o que foi memorizado.
+
+## 7. TECNOLOGIAS (DEFINIDAS, PROIBIDO TROCAR)
+
+- Backend: Python com FastAPI.
+- Banco: MySQL com SQLAlchemy.
+- Frontend: HTML, CSS e JavaScript puros.
+- Nada de Django, Flask, Node, React ou Vue sem a minha autorização.
+
+## 8. DESIGN (JÁ DEFINIDO, NÃO ALTERAR)
+
+Fonte Inter. Telas de computador de 1440x900. Estilo limpo e moderno, com cartões brancos, bordas discretas, botões azuis e tags arredondadas.
+
+Paleta:
+- Preto-azulado #0B1220
+- Azul principal #2563EB
+- Branco #FFFFFF
+- Fundo das telas internas #F5F8FF
+- Azul de apoio (textos e links) #1D4ED8
+- Fundo das tags #E3ECFF
+- Cinza-azulado (textos secundários) #475569
+- Bordas #D6E2F7 e #C9D8F2
+
+As 8 telas aprovadas estão no arquivo HTML anexo (versão do nicho Atleta). São, na ordem:
+- N1: Cadastro (escolha do motivo da viagem; o segundo motivo é "Atleta em competição no exterior", com a frase de apoio "Entrevistas com a imprensa").
+- N2: Login.
+- N3: Estudo, grupo 1 (Básico).
+- N4: Estudo, grupo 2 (Apresentação), com abas e setas entre grupos.
+- N5: Escolha do grupo para o minigame (lista com os 10 grupos do nicho Atleta: Básico + os 9).
+- N6, N7 e N8: escolha da direção do jogo e o jogo em si (usam o grupo 6, "Se você ganhar", com a pergunta "This win means a lot to me." e alternativas do mesmo tema).
+Use o arquivo só como referência visual do layout, cores e fonte. As telas do nicho Férias seguem exatamente o mesmo layout, trocando apenas os textos (nome do nicho, nomes dos grupos e expressões).
+
+## 9. DECISÕES AINDA PENDENTES (NÃO DECIDA SOZINHA)
+
+1. Minigames: formato da pergunta (alternativas para escolher, digitar a resposta ou ligar pares) e regras (quantidade de perguntas, pontuação, vidas, tela de resultado).
+2. Fonte do áudio (última etapa). Quero voz de falante nativo, não robotizada. Opções avaliadas: (a) voz neural de nuvem (Google, Amazon Polly, Microsoft Azure), não humana mas natural, com cota gratuita mensal e que permite gerar os arquivos uma vez e guardá-los; (b) Forvo, com gravações humanas, mas API paga, com limite de requisições, e a documentação proíbe guardar o áudio; (c) Tatoeba, com áudio humano só em parte das frases e licença variável por contribuidor.
+3. Recuperação de senha e verificação de e-mail (fora da primeira versão, a confirmar).
+4. Comportamento nas pontas: o que a seta de voltar faz no grupo 1 e o que a de avançar faz no último grupo (por exemplo, desabilitar).
+5. Como o script de importação evita duplicar expressões ao ser executado de novo.
+
+## 10. ÁUDIO (ÚLTIMA ETAPA)
+
+Será implementado por último, se der tempo. Por isso o banco já nasce com a coluna "audio" e a tela já tem o botão de tocar, que só aparece quando existe áudio. Assim, colocar o áudio depois é só gerar os arquivos e preencher a coluna.
+
+## 11. O QUE FOI DESCARTADO (NÃO IMPLEMENTAR)
+
+Tradutor livre ou API de tradução; editar, excluir ou criar expressões; tela de gramática; tela de revisão; painel de administrador; barra de progresso ou contagem; troca de nicho; lista de grupos na tela de estudo; "Entrar com Google"; avaliação de pronúncia por microfone; plano de estudo por dias; qualquer outro nicho além dos dois acima.
+
+## 12. COMO QUERO QUE VOCÊ TRABALHE
+
+1. Explique em português do Brasil, com palavras simples, passo a passo. Não presuma que conheço conceitos avançados.
+2. Diga exatamente em qual arquivo cada código deve ficar e explique o que cada parte faz.
+3. Organize o projeto em pastas e arquivos separados (nunca tudo em um arquivo só): backend, frontend e script de importação.
+4. Explique como instalar, configurar e testar cada etapa. Trabalhe em etapas pequenas e só avance depois que eu confirmar que funcionou.
+5. Faça perguntas objetivas, uma por vez, antes de decidir algo não definido. Não confunda sugestão com requisito aprovado.
+6. Não crie tabelas, campos ou rotas fora do que está neste documento sem explicar a finalidade e esperar minha aprovação.
+7. Quando houver erro, explique a causa e como corrigir.
+
+## 13. PRIMEIRA TAREFA
+
+NÃO escreva código ainda. Primeiro:
+(1) Resuma o que entendeu em poucas linhas, para eu corrigir.
+(2) Sugira a estrutura de pastas e arquivos (FastAPI, SQLAlchemy, MySQL, HTML/CSS/JS e o script de importação do CSV) e explique o que cada arquivo faz.
+(3) Liste suas dúvidas (se não tiver nenhuma, me diga em um parágrafo qual é o objetivo da aplicação, para eu ver que você entendeu).
+(4) Aguarde minha confirmação antes de continuar.
