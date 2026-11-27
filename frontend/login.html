@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entrar | Aprender Palavras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="tela-dividida">
+
+    <section class="painel-escuro">
+      <div class="marca">
+        <span class="marca-icone">A</span>
+        <span>Aprender Palavras</span>
+      </div>
+
+      <div class="apresentacao">
+        <h1>Aprenda o essencial antes de viajar</h1>
+        <p class="subtitulo">Expressões em inglês para se virar nos EUA, com a pronúncia escrita em português.</p>
+
+        <div class="exemplo">
+          <div class="ingles">Where is the gate?</div>
+          <div class="pronuncia">uér iz dê gueit</div>
+          <div class="portugues">Onde fica o portão de embarque?</div>
+        </div>
+        <div class="exemplo">
+          <div class="ingles">Thank you</div>
+          <div class="pronuncia">tênk iú</div>
+          <div class="portugues">Obrigado</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="painel-claro">
+      <div class="cartao">
+        <h2>Entrar</h2>
+        <p class="chamada">Continue de onde você parou.</p>
+
+        <div class="mensagem sucesso" id="mensagem-sucesso"></div>
+
+        <form id="formulario" novalidate>
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="voce@email.com" autocomplete="email">
+          </div>
+
+          <div class="campo">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Sua senha" autocomplete="current-password">
+          </div>
+
+          <div class="mensagem erro" id="mensagem" role="alert"></div>
+
+          <button type="submit" class="botao" id="botao-entrar">Entrar</button>
+        </form>
+
+        <p class="rodape-cartao">Ainda não tem conta? <a href="cadastro.html">Criar conta</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
