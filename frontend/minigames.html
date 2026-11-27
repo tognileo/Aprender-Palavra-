@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minigames | Aprender Palavras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <span class="topo-marca">Aprender Palavras</span>
+    <nav class="topo-menu">
+      <a href="estudo.html">Estudar</a>
+      <a class="ativo" href="minigames.html">Minigames</a>
+      <span id="saudacao"></span>
+      <button type="button" class="botao-contorno" id="botao-sair">Sair</button>
+    </nav>
+  </header>
+
+  <main class="minigames">
+    <h1>Minigames</h1>
+    <p class="chamada-minigames">Escolha o grupo em que você quer jogar.</p>
+
+    <div class="mensagem erro" id="mensagem" role="alert"></div>
+
+    <div class="grade-grupos" id="lista-grupos">
+      <p>Carregando...</p>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/minigames.js"></script>
+</body>
+</html>

@@ -10,13 +10,34 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Tela provisória: só confirma que o login funcionou. A tela de estudo de verdade vem na próxima etapa. -->
-  <main class="painel-claro" style="min-height:100vh">
-    <div class="cartao">
-      <h2 id="saudacao">Olá!</h2>
-      <p class="chamada">Login funcionando. A tela de estudo vem na próxima etapa.</p>
-      <button class="botao" id="botao-sair">Sair</button>
+  <header class="topo">
+    <span class="topo-marca">Aprender Palavras</span>
+    <nav class="topo-menu">
+      <a class="ativo" href="estudo.html">Estudar</a>
+      <a href="minigames.html">Minigames</a>
+      <span id="saudacao"></span>
+      <button type="button" class="botao-contorno" id="botao-sair">Sair</button>
+    </nav>
+  </header>
+
+  <main class="estudo">
+    <div class="navegacao-grupo">
+      <button type="button" class="seta" id="seta-voltar" aria-label="Grupo anterior" disabled>&#8249;</button>
+      <div class="titulo-grupo">
+        <p id="numero-grupo"></p>
+        <h1 id="nome-grupo">Carregando...</h1>
+      </div>
+      <button type="button" class="seta" id="seta-avancar" aria-label="Próximo grupo" disabled>&#8250;</button>
     </div>
+
+    <div class="abas">
+      <button type="button" class="aba ativa" id="aba-estudar">Para estudar</button>
+      <button type="button" class="aba" id="aba-memorizadas">Já memorizadas</button>
+    </div>
+
+    <div class="mensagem erro" id="mensagem" role="alert"></div>
+
+    <div id="lista"></div>
   </main>
 
   <script src="js/script.js"></script>

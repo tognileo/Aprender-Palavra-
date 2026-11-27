@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jogo | Aprender Palavras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <span class="topo-marca">Aprender Palavras</span>
+    <nav class="topo-menu">
+      <a href="estudo.html">Estudar</a>
+      <a class="ativo" href="minigames.html">Minigames</a>
+      <span id="saudacao"></span>
+      <button type="button" class="botao-contorno" id="botao-sair">Sair</button>
+    </nav>
+  </header>
+
+  <main class="jogo">
+    <div class="jogo-topo">
+      <a class="link-voltar" href="minigames.html">&larr; Sair do jogo</a>
+      <span class="etiqueta" id="etiqueta-jogo">Carregando...</span>
+    </div>
+
+    <div class="mensagem erro" id="mensagem" role="alert"></div>
+
+    <div id="area-jogo" hidden>
+      <section class="pergunta">
+        <p class="pergunta-rotulo" id="rotulo-pergunta"></p>
+        <h1 id="texto-pergunta"></h1>
+        <p class="pergunta-pronuncia" id="pronuncia-pergunta"></p>
+        <button type="button" class="botao-audio" id="botao-audio" aria-label="Ouvir" hidden>&#128266;</button>
+      </section>
+
+      <div id="alternativas"></div>
+
+      <div class="jogo-rodape" id="rodape" hidden>
+        <p id="retorno" role="status"></p>
+        <button type="button" class="botao botao-proxima" id="botao-proxima">Próxima pergunta</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/jogo.js"></script>
+</body>
+</html>

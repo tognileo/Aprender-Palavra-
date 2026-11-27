@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Como treinar | Aprender Palavras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <span class="topo-marca">Aprender Palavras</span>
+    <nav class="topo-menu">
+      <a href="estudo.html">Estudar</a>
+      <a class="ativo" href="minigames.html">Minigames</a>
+      <span id="saudacao"></span>
+      <button type="button" class="botao-contorno" id="botao-sair">Sair</button>
+    </nav>
+  </header>
+
+  <main class="escolha-direcao">
+    <a class="link-voltar" href="minigames.html">&larr; Escolher outro grupo</a>
+    <div><span class="etiqueta" id="numero-grupo">Carregando...</span></div>
+    <h1>Como você quer treinar?</h1>
+
+    <div class="mensagem erro" id="mensagem" role="alert"></div>
+
+    <section class="direcao">
+      <h2>Inglês para português</h2>
+      <p>Você vê <strong>a expressão em inglês</strong> e escolhe <strong>a tradução</strong>.</p>
+      <button type="button" class="botao botao-comecar" data-direcao="en-pt">Começar</button>
+    </section>
+
+    <section class="direcao">
+      <h2>Português para inglês</h2>
+      <p>Você vê <strong>a tradução em português</strong> e escolhe <strong>a expressão em inglês</strong>.</p>
+      <button type="button" class="botao botao-comecar" data-direcao="pt-en">Começar</button>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/direcao.js"></script>
+</body>
+</html>
